@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import classes from './App.css';
-import Person from './Person/Person'
+import Person from '../components/Persons/Person/Person'
 
 class App extends Component {
   state = {
     persons: [
-      { id: '1', name: 'Max', age: 28 },
+      { id: '1', name: 'Max', age: 28 },git a
       { id: '2', name: 'Manu', age: 25 },
       { id: '3', name: 'Jackson', age: 2 },
     ],
